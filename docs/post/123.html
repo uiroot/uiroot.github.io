@@ -19,7 +19,7 @@
 <meta property="og:url" content="https://uiroot.github.io/post/123.html">
 <meta property="og:image" content="https://avatars.githubusercontent.com/u/157085522?v=4">
 <title>123</title>
-
+<link href="//unpkg.com/@wooorm/starry-night@2.1.1/style/both.css" rel="stylesheet" />
 
 
 </head>
@@ -79,7 +79,243 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <p>技术架构如下：场景图<br>
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/user-attachments/assets/1d64ab05-c4f4-4582-8f25-8367f1c9e657"><img src="https://github.com/user-attachments/assets/1d64ab05-c4f4-4582-8f25-8367f1c9e657" alt="QQ20240726-222037" style="max-width: 100%;"></a></p>
 <p>业务场景<br>
-CDN的业务使用场景，分为静态内容加速、动态内容</p></div>
+CDN的业务使用场景，分为静态内容加速、动态内容</p>
+<h3>fsdfs</h3>
+
+
+<h2>1. 标题</h2><p>Markdown 支持多级标题，通过在文字前面加上 <code class="notranslate">#</code> 符号来表示。标题级别由 <code class="notranslate">#</code> 的数量决定。</p><pre class="notranslate"><div><div><span>markdown</span><div><span>复制代码</span></div></div><div dir="ltr"><code class="notranslate"><span># 一级标题</span>
+<span>## 二级标题</span>
+<span>### 三级标题</span>
+<span>#### 四级标题</span>
+<span>##### 五级标题</span>
+<span>###### 六级标题</span>
+</code></div></div></pre><p>实际效果如下：</p><h1>一级标题</h1><h2>二级标题</h2><h3>三级标题</h3><h4>四级标题</h4><h5>五级标题</h5><h6>六级标题</h6><h2>2. 段落与换行</h2><p>在 Markdown 中，段落通过一个或多个空行分隔。单行文本直接回车不会换行，需要在行尾加两个空格。</p><pre class="notranslate"><div><div><span>markdown</span><div><span>复制代码</span></div></div><div dir="ltr"><code class="notranslate">这是第一段文字。
+</code><p><code class="notranslate">这是第二段文字，末尾加两个空格<br>
+这样就会换行。<br>
+</code></p></div></div></pre><p>效果如下：</p><p>这是第一段文字。</p><p>这是第二段文字，末尾加两个空格<br>这样就会换行。</p><h2>3. 强调</h2><p>可以使用星号 <code class="notranslate"><em></em></code><em> 或下划线 <code class="notranslate">_</code> 包围文字来表示强调（斜体和粗体）。</em></p><pre class="notranslate"><div><div><em><span>markdown</span><div><span>复制代码</span></div></em></div><div dir="ltr"><em><code class="notranslate"><span><em>斜体</em></span> 或 <span><em>斜体</em></span><br>
+<span><strong>粗体</strong></span> 或 <span><strong>粗体</strong></span><br>
+<span><strong><span><em>粗斜体</em></span></strong></span> 或 <span><strong><span><em>粗斜体</em></span></strong></span><br>
+</code></em></div></div></pre><p><em>效果如下：</em></p><p><em><em>斜体</em> 或 <em>斜体</em><br><strong>粗体</strong> 或 <strong>粗体</strong><br><em><strong>粗斜体</strong></em> 或 <em><strong>粗斜体</strong></em></em></p><h2><em>4. 列表</em></h2><h3><em>无序列表</em></h3><p><em>使用星号 <code class="notranslate"></code></em>、加号 <code class="notranslate">+</code> 或减号 <code class="notranslate">-</code> 表示无序列表。</p><pre class="notranslate"><div><div><span>markdown</span><div><span>复制代码</span></div></div><div dir="ltr"><code class="notranslate"><span><em></em></span><em> 项目1<br>
+<span></span></em> 项目2<br>
+<span>  *</span> 子项目2.1<br>
+<span>  *</span> 子项目2.2<br>
+<span>+</span> 项目3<br>
+<span>-</span> 项目4<br>
+</code></div></div></pre><p>效果如下：</p><ul><li>项目1</li><li>项目2<ul><li>子项目2.1</li><li>子项目2.2</li></ul></li></ul><ul><li>项目3</li></ul><ul><li>项目4</li></ul><h3>有序列表</h3><p>使用数字加上点号 <code class="notranslate">.</code> 表示有序列表。</p><pre class="notranslate"><div><div><span>markdown</span><div><span>复制代码</span></div></div><div dir="ltr"><code class="notranslate"><span>1.</span> 第一项<br>
+<span>2.</span> 第二项<br>
+<span>   1.</span> 子项目2.1<br>
+<span>   2.</span> 子项目2.2<br>
+<span>3.</span> 第三项<br>
+</code></div></div></pre><p>效果如下：</p><ol><li>第一项</li><li>第二项<ol><li>子项目2.1</li><li>子项目2.2</li></ol></li><li>第三项</li></ol><h2>5. 链接</h2><p>Markdown 支持内联链接和引用式链接。</p><h3>内联链接</h3><pre class="notranslate"><div><div><span>markdown</span><div><span>复制代码</span></div></div><div dir="ltr"><code class="notranslate">这是一个 [<span>内联链接</span>](<span><a href="https://www.example.com" rel="nofollow">https://www.example.com</a></span>)。<br>
+</code></div></div></pre><p>效果如下：</p><p>这是一个 <a href="https://www.example.com" rel="nofollow">内联链接</a>。</p><h3>引用式链接</h3><pre class="notranslate"><div><div><span>markdown</span><div><span>复制代码</span></div></div><div dir="ltr"><code class="notranslate">这是一个 [<span>引用式链接</span>][<span>1</span>]。<p></p>
+</code><p><code class="notranslate">[<span>1</span>]: <span><a href="https://www.example.com" rel="nofollow">https://www.example.com</a></span><br>
+</code></p></div></div></pre><p>效果如下：</p><p>这是一个 <a href="https://www.example.com" rel="nofollow">引用式链接</a>。</p><h2>6. 图片</h2><p>插入图片的语法与链接类似，只是在前面加一个感叹号 <code class="notranslate">!</code>。</p><pre class="notranslate"><div><div><span>markdown</span><div><span>复制代码</span></div></div><div dir="ltr"><code class="notranslate">![<span>Alt文本</span>](<span><a href="https://www.example.com/image.jpg" rel="nofollow">https://www.example.com/image.jpg</a></span>)<br>
+</code></div></div></pre><p>效果如下：</p><p></p><div></div><p></p><h2>7. 引用</h2><p>使用大于号 <code class="notranslate">&gt;</code> 表示引用。可以嵌套引用，也可以使用多个 <code class="notranslate">&gt;</code> 表示层级。</p><pre class="notranslate"><div><div><span>markdown</span><div><span>复制代码</span></div></div><div dir="ltr"><code class="notranslate"><span>&gt; 这是一个引用。</span><br>
+&gt;&gt; 这是一个嵌套引用。<br>
+</code></div></div></pre><p>效果如下：</p><blockquote><p>这是一个引用。</p><blockquote><p>这是一个嵌套引用。</p></blockquote></blockquote><h2>8. 代码</h2><h3>行内代码</h3><p>使用反引号 <code class="notranslate"><code class="notranslate">&lt;/code&gt; 包围代码段。&lt;/p&gt;&lt;pre&gt;&lt;div class="dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium"&gt;&lt;div class="flex items-center relative text-token-text-secondary bg-token-main-surface-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md"&gt;&lt;span&gt;markdown&lt;/span&gt;&lt;div class="flex items-center"&gt;&lt;span class="" data-state="closed"&gt;&lt;button class="flex gap-1 items-center"&gt;&lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" class="icon-sm"&gt;&lt;path fill="currentColor" fill-rule="evenodd" d="M7 5a3 3 0 0 1 3-3h9a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-2v2a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3v-9a3 3 0 0 1 3-3h2zm2 2h5a3 3 0 0 1 3 3v5h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-9a1 1 0 0 0-1 1zM5 9a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-9a1 1 0 0 0-1-1z" clip-rule="evenodd"&gt;&lt;/path&gt;&lt;/svg&gt;复制代码&lt;/button&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="overflow-y-auto p-4" dir="ltr"&gt;&lt;code class="!whitespace-pre hljs language-markdown"&gt;这是 &lt;span class="hljs-code"&gt;</code>行内代码` 示例。<br>
+</code></p><p>效果如下：</p><p>这是 <code class="notranslate">行内代码</code> 示例。</p><h3>代码块</h3><p>使用三个反引号 <code class="notranslate"> 包围代码块。可以指定代码语言实现语法高亮。&lt;/p&gt;&lt;pre&gt;&lt;div class="dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium"&gt;&lt;div class="flex items-center relative text-token-text-secondary bg-token-main-surface-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md"&gt;&lt;span&gt;markdown&lt;/span&gt;&lt;div class="flex items-center"&gt;&lt;span class="" data-state="closed"&gt;&lt;button class="flex gap-1 items-center"&gt;&lt;svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24" class="icon-sm"&gt;&lt;path fill="currentColor" fill-rule="evenodd" d="M7 5a3 3 0 0 1 3-3h9a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-2v2a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3v-9a3 3 0 0 1 3-3h2zm2 2h5a3 3 0 0 1 3 3v5h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-9a1 1 0 0 0-1 1zM5 9a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-9a1 1 0 0 0-1-1z" clip-rule="evenodd"&gt;&lt;/path&gt;&lt;/svg&gt;复制代码&lt;/button&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="overflow-y-auto p-4" dir="ltr"&gt;&lt;code class="!whitespace-pre hljs language-markdown"&gt;&lt;span class="hljs-code"&gt;</code>python<br>
+def hello_world():<br>
+print("Hello, world!")<br>
+</p><pre class="notranslate"><div><div><span>scss</span><div><span>复制代码</span></div></div><div dir="ltr"><code class="notranslate"><br>
+效果如下：<p></p>
+<div class="highlight highlight-source-python"><pre class="notranslate"><span class="pl-k">def</span> <span class="pl-c1">&lt;</span><span class="pl-s1">span</span> <span class="pl-s1">class</span><span class="pl-c1">=</span><span class="pl-s">"hljs-built_in"</span><span class="pl-c1">&gt;</span><span class="pl-s1">hello_world</span><span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-s1">span</span><span class="pl-c1">&gt;</span>():
+    <span class="pl-c1">&lt;</span><span class="pl-s1">span</span> <span class="pl-s1">class</span><span class="pl-c1">=</span><span class="pl-s">"hljs-built_in"</span><span class="pl-c1">&gt;</span><span class="pl-s1">print</span><span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-s1">span</span><span class="pl-c1">&gt;</span>(<span class="pl-c1">&lt;</span><span class="pl-s1">span</span> <span class="pl-s1">class</span><span class="pl-c1">=</span><span class="pl-s">"hljs-string"</span><span class="pl-c1">&gt;</span><span class="pl-s">"Hello, world!"</span><span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-s1">span</span><span class="pl-c1">&gt;</span><span class="pl-s1"></span>)
+<span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-s1">code</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-s1">div</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-s1">div</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-s1">pre</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-s1">h2</span><span class="pl-c1">&gt;</span><span class="pl-c1">9.</span> <span class="pl-s1">分隔线</span><span class="pl-c1">&lt;</span><span class="pl-s1"></span><span class="pl-c1">/</span><span class="pl-s1">h2</span><span class="pl-c1">&gt;</span><span class="pl-s1"></span><span class="pl-c1">&lt;</span><span class="pl-s1">p</span><span class="pl-c1">&gt;</span><span class="pl-s1">使用三个或更多的星号</span> <span class="pl-c1">&lt;</span><span class="pl-s1">code</span><span class="pl-c1">&gt;</span><span class="pl-s1"></span><span class="pl-c1">*</span><span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-s1">code</span><span class="pl-c1">&gt;</span>、<span class="pl-s1">减号</span> <span class="pl-c1">&lt;</span><span class="pl-s1">code</span><span class="pl-c1">&gt;</span><span class="pl-c1">-</span><span class="pl-s1"></span><span class="pl-c1">&lt;</span><span class="pl-s1"></span><span class="pl-c1">/</span><span class="pl-s1">code</span><span class="pl-c1">&gt;</span> <span class="pl-s1">或下划线</span> <span class="pl-c1">&lt;</span><span class="pl-s1">code</span><span class="pl-c1">&gt;</span><span class="pl-s1">_</span><span class="pl-c1">&lt;</span><span class="pl-s1"></span><span class="pl-c1">/</span><span class="pl-s1">code</span><span class="pl-c1">&gt;</span> <span class="pl-s1">创建分隔线</span>。<span class="pl-c1">&lt;</span><span class="pl-s1"></span><span class="pl-c1">/</span><span class="pl-s1">p</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-s1">pre</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-s1">div</span> <span class="pl-s1">class</span><span class="pl-c1">=</span><span class="pl-s">"dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium"</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-s1">div</span> <span class="pl-s1">class</span><span class="pl-c1">=</span><span class="pl-s">"flex items-center relative text-token-text-secondary bg-token-main-surface-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md"</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-s1">span</span><span class="pl-c1">&gt;</span><span class="pl-s1">markdown</span><span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-s1">span</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-s1">div</span> <span class="pl-s1">class</span><span class="pl-c1">=</span><span class="pl-s">"flex items-center"</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-s1">span</span> <span class="pl-s1">class</span><span class="pl-c1">=</span><span class="pl-s">""</span> <span class="pl-s1">data</span><span class="pl-c1">-</span><span class="pl-s1">state</span><span class="pl-c1">=</span><span class="pl-s">"closed"</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-s1">button</span> <span class="pl-s1">class</span><span class="pl-c1">=</span><span class="pl-s">"flex gap-1 items-center"</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-s1">svg</span> <span class="pl-s1">xmlns</span><span class="pl-c1">=</span><span class="pl-s">"http://www.w3.org/2000/svg"</span> <span class="pl-s1">width</span><span class="pl-c1">=</span><span class="pl-s">"24"</span> <span class="pl-s1">height</span><span class="pl-c1">=</span><span class="pl-s">"24"</span> <span class="pl-s1">fill</span><span class="pl-c1">=</span><span class="pl-s">"none"</span> <span class="pl-s1">viewBox</span><span class="pl-c1">=</span><span class="pl-s">"0 0 24 24"</span> <span class="pl-s1">class</span><span class="pl-c1">=</span><span class="pl-s">"icon-sm"</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-s1">path</span> <span class="pl-s1">fill</span><span class="pl-c1">=</span><span class="pl-s">"currentColor"</span> <span class="pl-s1">fill</span><span class="pl-c1">-</span><span class="pl-s1">rule</span><span class="pl-c1">=</span><span class="pl-s">"evenodd"</span> <span class="pl-s1">d</span><span class="pl-c1">=</span><span class="pl-s">"M7 5a3 3 0 0 1 3-3h9a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-2v2a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3v-9a3 3 0 0 1 3-3h2zm2 2h5a3 3 0 0 1 3 3v5h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-9a1 1 0 0 0-1 1zM5 9a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-9a1 1 0 0 0-1-1z"</span> <span class="pl-s1">clip</span><span class="pl-c1">-</span><span class="pl-s1">rule</span><span class="pl-c1">=</span><span class="pl-s">"evenodd"</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-s1">path</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-s1">svg</span><span class="pl-c1">&gt;</span><span class="pl-s1">复制代码</span><span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-s1">button</span><span class="pl-c1">&gt;</span><span class="pl-s1"></span><span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-s1">span</span><span class="pl-c1">&gt;</span><span class="pl-s1"></span><span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-s1">div</span><span class="pl-c1">&gt;</span><span class="pl-s1"></span><span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-s1">div</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-s1">div</span> <span class="pl-s1">class</span><span class="pl-c1">=</span><span class="pl-s">"overflow-y-auto p-4"</span> <span class="pl-s1">dir</span><span class="pl-c1">=</span><span class="pl-s">"ltr"</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-s1">code</span> <span class="pl-s1">class</span><span class="pl-c1">=</span><span class="pl-s">"!whitespace-pre hljs language-markdown"</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-s1">span</span> <span class="pl-s1">class</span><span class="pl-c1">=</span><span class="pl-s">"hljs-section"</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-s1">span</span> <span class="pl-s1">class</span><span class="pl-c1">=</span><span class="pl-s">"hljs-strong"</span><span class="pl-c1">&gt;</span><span class="pl-s1"></span><span class="pl-c1">**</span><span class="pl-s1"></span><span class="pl-c1">*</span>
+<span class="pl-c1">-</span><span class="pl-c1">-</span><span class="pl-c1">-</span>
+<span class="pl-s1">___</span>
+<span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-s1">span</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-s1">span</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-s1">code</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-s1">div</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-s1">div</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-s1">pre</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-s1">p</span><span class="pl-c1">&gt;</span><span class="pl-s1">效果如下</span>：<span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-s1">p</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-s1">hr</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-s1">hr</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-s1">hr</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-s1">h2</span><span class="pl-c1">&gt;</span><span class="pl-c1">10.</span> <span class="pl-s1">表格</span><span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-s1">h2</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-s1">p</span><span class="pl-c1">&gt;</span><span class="pl-s1">使用竖线</span> <span class="pl-c1">&lt;</span><span class="pl-s1">code</span><span class="pl-c1">&gt;</span><span class="pl-c1">|</span><span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-s1">code</span><span class="pl-c1">&gt;</span> <span class="pl-s1">和横线</span> <span class="pl-c1">&lt;</span><span class="pl-s1">code</span><span class="pl-c1">&gt;</span><span class="pl-c1">-</span><span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-s1">code</span><span class="pl-c1">&gt;</span> <span class="pl-s1">创建表格</span>。<span class="pl-s1">列之间可以有对齐方式</span>。<span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-s1">p</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-s1">pre</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-s1">div</span> <span class="pl-s1">class</span><span class="pl-c1">=</span><span class="pl-s">"dark bg-gray-950 rounded-md border-[0.5px] border-token-border-medium"</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-s1">div</span> <span class="pl-s1">class</span><span class="pl-c1">=</span><span class="pl-s">"flex items-center relative text-token-text-secondary bg-token-main-surface-secondary px-4 py-2 text-xs font-sans justify-between rounded-t-md"</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-s1">span</span><span class="pl-c1">&gt;</span><span class="pl-s1">markdown</span><span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-s1">span</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-s1">div</span> <span class="pl-s1">class</span><span class="pl-c1">=</span><span class="pl-s">"flex items-center"</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-s1">span</span> <span class="pl-s1">class</span><span class="pl-c1">=</span><span class="pl-s">""</span> <span class="pl-s1">data</span><span class="pl-c1">-</span><span class="pl-s1">state</span><span class="pl-c1">=</span><span class="pl-s">"closed"</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-s1">button</span> <span class="pl-s1">class</span><span class="pl-c1">=</span><span class="pl-s">"flex gap-1 items-center"</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-s1">svg</span> <span class="pl-s1">xmlns</span><span class="pl-c1">=</span><span class="pl-s">"http://www.w3.org/2000/svg"</span> <span class="pl-s1">width</span><span class="pl-c1">=</span><span class="pl-s">"24"</span> <span class="pl-s1">height</span><span class="pl-c1">=</span><span class="pl-s">"24"</span> <span class="pl-s1">fill</span><span class="pl-c1">=</span><span class="pl-s">"none"</span> <span class="pl-s1">viewBox</span><span class="pl-c1">=</span><span class="pl-s">"0 0 24 24"</span> <span class="pl-s1">class</span><span class="pl-c1">=</span><span class="pl-s">"icon-sm"</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-s1">path</span> <span class="pl-s1">fill</span><span class="pl-c1">=</span><span class="pl-s">"currentColor"</span> <span class="pl-s1">fill</span><span class="pl-c1">-</span><span class="pl-s1">rule</span><span class="pl-c1">=</span><span class="pl-s">"evenodd"</span> <span class="pl-s1">d</span><span class="pl-c1">=</span><span class="pl-s">"M7 5a3 3 0 0 1 3-3h9a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3h-2v2a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3v-9a3 3 0 0 1 3-3h2zm2 2h5a3 3 0 0 1 3 3v5h2a1 1 0 0 0 1-1V5a1 1 0 0 0-1-1h-9a1 1 0 0 0-1 1zM5 9a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-9a1 1 0 0 0-1-1z"</span> <span class="pl-s1">clip</span><span class="pl-c1">-</span><span class="pl-s1">rule</span><span class="pl-c1">=</span><span class="pl-s">"evenodd"</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-s1">path</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-s1">svg</span><span class="pl-c1">&gt;</span><span class="pl-s1">复制代码</span><span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-s1">button</span><span class="pl-c1">&gt;</span><span class="pl-s1"></span><span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-s1">span</span><span class="pl-c1">&gt;</span><span class="pl-s1"></span><span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-s1">div</span><span class="pl-c1">&gt;</span><span class="pl-s1"></span><span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-s1">div</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-s1">div</span> <span class="pl-s1">class</span><span class="pl-c1">=</span><span class="pl-s">"overflow-y-auto p-4"</span> <span class="pl-s1">dir</span><span class="pl-c1">=</span><span class="pl-s">"ltr"</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-s1">code</span> <span class="pl-s1">class</span><span class="pl-c1">=</span><span class="pl-s">"!whitespace-pre hljs language-markdown"</span><span class="pl-c1">&gt;</span><span class="pl-c1">|</span> <span class="pl-s1">头1</span> <span class="pl-c1">|</span> <span class="pl-s1">头2</span> <span class="pl-c1">|</span> <span class="pl-s1">头3</span> <span class="pl-c1">|</span>
+<span class="pl-c1">|</span> <span class="pl-c1">-</span><span class="pl-c1">-</span><span class="pl-c1">-</span> <span class="pl-c1">|</span>:<span class="pl-c1">-</span><span class="pl-c1">-</span><span class="pl-c1">-</span>:<span class="pl-c1">|</span> <span class="pl-c1">-</span><span class="pl-c1">-</span><span class="pl-c1">-</span>:<span class="pl-c1">|</span>
+<span class="pl-c1">|</span> <span class="pl-s1">单元格1</span> <span class="pl-c1">|</span> <span class="pl-s1">单元格2</span> <span class="pl-c1">|</span> <span class="pl-s1">单元格3</span> <span class="pl-c1">|</span>
+<span class="pl-c1">|</span> <span class="pl-s1">单元格4</span> <span class="pl-c1">|</span> <span class="pl-s1">单元格5</span> <span class="pl-c1">|</span> <span class="pl-s1">单元格6</span> <span class="pl-c1">|</span>
+<span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-s1">code</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-s1">div</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-s1">div</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-s1">pre</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span><span class="pl-s1">p</span><span class="pl-c1">&gt;</span><span class="pl-s1">效果如下</span>：<span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-s1">p</span><span class="pl-c1">&gt;</span>
+<span class="pl-s1">头1</span> <span class="pl-c1">|</span> <span class="pl-s1">头2</span> <span class="pl-c1">|</span> <span class="pl-s1">头3</span>
+<span class="pl-c1">-</span><span class="pl-c1">-</span> <span class="pl-c1">|</span> <span class="pl-c1">-</span><span class="pl-c1">-</span><span class="pl-s1"></span> <span class="pl-c1">|</span> <span class="pl-c1">-</span><span class="pl-c1">-</span>
+<span class="pl-s1">单元格1</span> <span class="pl-c1">|</span> <span class="pl-s1">单元格2</span> <span class="pl-c1">|</span> <span class="pl-s1">单元格3</span>
+<span class="pl-s1">单元格4</span> <span class="pl-c1">|</span> <span class="pl-s1">单元格5</span> <span class="pl-c1">|</span> <span class="pl-s1">单元格6</span>
+
+<span class="pl-c1">&lt;</span><span class="pl-s1">h2</span><span class="pl-c1">&gt;</span><span class="pl-c1">11.</span> <span class="pl-s1">注释</span><span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-s1">h2</span><span class="pl-c1">&gt;</span><span class="pl-c1">&lt;</span>!<span class="pl-c1">-</span><span class="pl-c1">-</span><span class="pl-v">EndFragment</span><span class="pl-c1">-</span><span class="pl-c1">-</span><span class="pl-c1">&gt;</span>
+<span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-s1">body</span><span class="pl-c1">&gt;</span>
+<span class="pl-c1">&lt;</span><span class="pl-c1">/</span><span class="pl-s1">html</span><span class="pl-c1">&gt;</span><span class="pl-c1">1.</span> <span class="pl-s1">标题</span>
+<span class="pl-v">Markdown</span> <span class="pl-s1">支持多级标题</span>，<span class="pl-s1">通过在文字前面加上</span> <span class="pl-c"># 符号来表示。标题级别由 # 的数量决定。</span>
+
+<span class="pl-s1">markdown</span>
+<span class="pl-s1">复制代码</span>
+<span class="pl-c"># 一级标题</span>
+<span class="pl-c">## 二级标题</span>
+<span class="pl-c">### 三级标题</span>
+<span class="pl-c">#### 四级标题</span>
+<span class="pl-c">##### 五级标题</span>
+<span class="pl-c">###### 六级标题</span>
+<span class="pl-s1">实际效果如下</span>：
+
+<span class="pl-s1">一级标题</span>
+<span class="pl-s1">二级标题</span>
+<span class="pl-s1">三级标题</span>
+<span class="pl-s1">四级标题</span>
+<span class="pl-s1">五级标题</span>
+<span class="pl-s1">六级标题</span>
+<span class="pl-c1">2.</span> <span class="pl-s1">段落与换行</span>
+<span class="pl-s1">在</span> <span class="pl-v">Markdown</span> <span class="pl-s1">中</span>，<span class="pl-s1">段落通过一个或多个空行分隔</span>。<span class="pl-s1">单行文本直接回车不会换行</span>，<span class="pl-s1">需要在行尾加两个空格</span>。
+
+<span class="pl-s1">markdown</span>
+<span class="pl-s1">复制代码</span>
+<span class="pl-s1">这是第一段文字</span>。
+
+<span class="pl-s1">这是第二段文字</span>，<span class="pl-s1">末尾加两个空格</span>  
+<span class="pl-s1">这样就会换行</span>。
+<span class="pl-s1">效果如下</span>：
+
+<span class="pl-s1">这是第一段文字</span>。
+
+<span class="pl-s1">这是第二段文字</span>，<span class="pl-s1">末尾加两个空格</span>
+<span class="pl-s1">这样就会换行</span>。
+
+<span class="pl-c1">3.</span> <span class="pl-s1">强调</span>
+<span class="pl-s1">可以使用星号</span> <span class="pl-c1">*</span> <span class="pl-s1">或下划线</span> <span class="pl-s1">_</span> <span class="pl-s1">包围文字来表示强调</span>（<span class="pl-s1">斜体和粗体</span>）。
+
+<span class="pl-s1">markdown</span>
+<span class="pl-s1">复制代码</span>
+<span class="pl-c1">*</span><span class="pl-s1">斜体</span><span class="pl-c1">*</span> <span class="pl-s1">或</span> <span class="pl-s1">_斜体_</span>
+<span class="pl-c1">**</span><span class="pl-s1">粗体</span><span class="pl-c1">**</span> <span class="pl-s1">或</span> <span class="pl-s1">__粗体__</span>
+<span class="pl-c1">**</span><span class="pl-c1">*</span><span class="pl-s1">粗斜体</span><span class="pl-c1">**</span><span class="pl-c1">*</span> <span class="pl-s1">或</span> <span class="pl-s1">___粗斜体___</span>
+<span class="pl-s1">效果如下</span>：
+
+<span class="pl-s1">斜体</span> <span class="pl-s1">或</span> <span class="pl-s1">斜体</span>
+<span class="pl-s1">粗体</span> <span class="pl-s1">或</span> <span class="pl-s1">粗体</span>
+<span class="pl-s1">粗斜体</span> <span class="pl-s1">或</span> <span class="pl-s1">粗斜体</span>
+
+<span class="pl-c1">4.</span> <span class="pl-s1">列表</span>
+<span class="pl-s1">无序列表</span>
+<span class="pl-s1">使用星号</span> <span class="pl-c1">*</span>、<span class="pl-s1">加号</span> <span class="pl-c1">+</span> <span class="pl-s1">或减号</span> <span class="pl-c1">-</span> <span class="pl-s1">表示无序列表</span>。
+
+<span class="pl-s1">markdown</span>
+<span class="pl-s1">复制代码</span>
+<span class="pl-c1">*</span> <span class="pl-s1">项目1</span>
+<span class="pl-c1">*</span> <span class="pl-s1">项目2</span>
+  <span class="pl-c1">*</span> <span class="pl-s1">子项目2</span>.<span class="pl-c1">1</span>
+  <span class="pl-c1">*</span> <span class="pl-s1">子项目2</span>.<span class="pl-c1">2</span>
+<span class="pl-c1">+</span> <span class="pl-s1">项目3</span>
+<span class="pl-c1">-</span> <span class="pl-s1">项目4</span>
+<span class="pl-s1">效果如下</span>：
+
+<span class="pl-s1">项目1</span>
+<span class="pl-s1">项目2</span>
+<span class="pl-s1">子项目2</span>.<span class="pl-c1">1</span>
+<span class="pl-s1">子项目2</span>.<span class="pl-c1">2</span>
+<span class="pl-s1">项目3</span>
+<span class="pl-s1">项目4</span>
+<span class="pl-s1">有序列表</span>
+<span class="pl-s1">使用数字加上点号</span> . <span class="pl-s1">表示有序列表</span>。
+
+<span class="pl-s1">markdown</span>
+<span class="pl-s1">复制代码</span>
+<span class="pl-c1">1.</span> <span class="pl-s1">第一项</span>
+<span class="pl-c1">2.</span> <span class="pl-s1">第二项</span>
+   <span class="pl-c1">1.</span> <span class="pl-s1">子项目2</span><span class="pl-c1">.1</span>
+   <span class="pl-c1">2.</span> <span class="pl-s1">子项目2</span>.<span class="pl-c1">2</span>
+<span class="pl-c1">3.</span> <span class="pl-s1">第三项</span>
+<span class="pl-s1">效果如下</span>：
+
+<span class="pl-s1">第一项</span>
+<span class="pl-s1">第二项</span>
+<span class="pl-s1">子项目2</span>.<span class="pl-c1">1</span>
+<span class="pl-s1">子项目2</span>.<span class="pl-c1">2</span>
+<span class="pl-s1">第三项</span>
+<span class="pl-c1">5.</span> <span class="pl-s1">链接</span>
+<span class="pl-v">Markdown</span> <span class="pl-s1">支持</span>[<span class="pl-s1">内联链接</span>](<span class="pl-s1">https</span>:<span class="pl-c1">//</span><span class="pl-s1">www</span>.<span class="pl-s1">example</span>.<span class="pl-s1">com</span><span class="pl-c1">/</span>)<span class="pl-s1">和引用式链接</span>。
+
+<span class="pl-s1">内联链接</span>
+<span class="pl-s1">markdown</span>
+<span class="pl-s1">复制代码</span>
+<span class="pl-s1">这是一个</span> [<span class="pl-s1">内联链接</span>](<span class="pl-s1">https</span>:<span class="pl-c1">//</span><span class="pl-s1">www</span>.<span class="pl-s1">example</span>.<span class="pl-s1">com</span>)。
+<span class="pl-s1">效果如下</span>：
+
+<span class="pl-s1">这是一个</span> <span class="pl-s1">内联链接</span>。
+
+[<span class="pl-s1">引用式链接</span>](<span class="pl-s1">https</span>:<span class="pl-c1">//</span><span class="pl-s1">www</span>.<span class="pl-s1">example</span>.<span class="pl-s1">com</span><span class="pl-c1">/</span>)
+<span class="pl-s1">markdown</span>
+<span class="pl-s1">复制代码</span>
+<span class="pl-s1">这是一个</span> [<span class="pl-s1">引用式链接</span>][<span class="pl-c1">1</span>]。
+
+[<span class="pl-c1">1</span>]: <span class="pl-s1">https</span>:<span class="pl-c1">//</span><span class="pl-s1">www</span>.<span class="pl-s1">example</span>.<span class="pl-s1">com</span>
+<span class="pl-s1">效果如下</span>：
+
+<span class="pl-s1">这是一个</span> <span class="pl-s1">引用式链接</span>。
+
+<span class="pl-c1">6.</span> <span class="pl-s1">图片</span>
+<span class="pl-s1">插入图片的语法与链接类似</span>，<span class="pl-s1">只是在前面加一个感叹号</span> !。
+
+<span class="pl-s1">markdown</span>
+<span class="pl-s1">复制代码</span>
+![<span class="pl-v">Alt文本</span>](<span class="pl-s1">https</span>:<span class="pl-c1">//</span><span class="pl-s1">www</span>.<span class="pl-s1">example</span>.<span class="pl-s1">com</span><span class="pl-c1">/</span><span class="pl-s1">image</span>.<span class="pl-s1">jpg</span>)
+<span class="pl-s1">效果如下</span>：
+
+
+<span class="pl-c1">7.</span> <span class="pl-s1">引用</span>
+<span class="pl-s1">使用大于号</span> <span class="pl-c1">&gt;</span> <span class="pl-s1">表示引用</span>。<span class="pl-s1">可以嵌套引用</span>，<span class="pl-s1">也可以使用多个</span> <span class="pl-c1">&gt;</span> <span class="pl-s1">表示层级</span>。
+
+<span class="pl-s1">markdown</span>
+<span class="pl-s1">复制代码</span>
+<span class="pl-c1">&gt;</span> <span class="pl-s1">这是一个引用</span>。
+<span class="pl-c1">&gt;&gt;</span> <span class="pl-s1">这是一个嵌套引用</span>。
+<span class="pl-s1">效果如下</span>：
+
+<span class="pl-s1">这是一个引用</span>。
+
+<span class="pl-s1">这是一个嵌套引用</span>。
+
+<span class="pl-c1">8.</span> <span class="pl-s1">代码</span>
+<span class="pl-s1">行内代码</span>
+<span class="pl-s1">使用反引号</span> ` <span class="pl-s1">包围代码段</span>。
+
+<span class="pl-s1">markdown</span>
+<span class="pl-s1">复制代码</span>
+<span class="pl-s1">这是</span> <span class="pl-s">`行内代码`</span> <span class="pl-s1">示例</span>。
+<span class="pl-s1">效果如下</span>：
+
+<span class="pl-s1">这是</span> <span class="pl-s1">行内代码</span> <span class="pl-s1">示例</span>。
+
+<span class="pl-s1">代码块</span>
+<span class="pl-s1">使用三个反引号</span> <span class="pl-s">``</span>` <span class="pl-s1">包围代码块</span>。<span class="pl-s1">可以指定代码语言实现语法高亮</span>。
+
+<span class="pl-s1">markdown</span>
+<span class="pl-s1">复制代码</span>
+`<span class="pl-s">``</span><span class="pl-s1">python</span>
+<span class="pl-k">def</span> <span class="pl-en">hello_world</span>():
+    <span class="pl-en">print</span>(<span class="pl-s">"Hello, world!"</span>)
+<span class="pl-s1">scss</span>
+<span class="pl-s1">复制代码</span>
+
+<span class="pl-s1">效果如下</span>：
+
+`<span class="pl-s">``</span><span class="pl-s1">python</span>
+<span class="pl-k">def</span> <span class="pl-en">hello_world</span>():
+    <span class="pl-en">print</span>(<span class="pl-s">"Hello, world!"</span>)
+<span class="pl-c1">9.</span> <span class="pl-s1">分隔线</span>
+<span class="pl-s1">使用三个或更多的星号</span> <span class="pl-c1">*</span>、<span class="pl-s1">减号</span> <span class="pl-c1">-</span> <span class="pl-s1">或下划线</span> <span class="pl-s1">_</span> <span class="pl-s1">创建分隔线</span>。
+
+<span class="pl-s1">markdown</span>
+<span class="pl-s1">复制代码</span>
+<span class="pl-c1">**</span><span class="pl-c1">*</span>
+<span class="pl-c1">-</span><span class="pl-c1">-</span><span class="pl-c1">-</span>
+<span class="pl-s1">___</span>
+<span class="pl-s1">效果如下</span>：
+
+<span class="pl-c1">10.</span> <span class="pl-s1">表格</span>
+<span class="pl-s1">使用竖线</span> <span class="pl-c1">|</span> <span class="pl-s1">和横线</span> <span class="pl-c1">-</span> <span class="pl-s1">创建表格</span>。<span class="pl-s1">列之间可以有对齐方式</span>。
+
+<span class="pl-s1">markdown</span>
+<span class="pl-s1">复制代码</span>
+<span class="pl-c1">|</span> <span class="pl-s1">头1</span> <span class="pl-c1">|</span> <span class="pl-s1">头2</span> <span class="pl-c1">|</span> <span class="pl-s1">头3</span> <span class="pl-c1">|</span>
+<span class="pl-c1">|</span> <span class="pl-c1">-</span><span class="pl-c1">-</span><span class="pl-c1">-</span> <span class="pl-c1">|</span>:<span class="pl-c1">-</span><span class="pl-c1">-</span><span class="pl-c1">-</span>:<span class="pl-c1">|</span> <span class="pl-c1">-</span><span class="pl-c1">-</span><span class="pl-c1">-</span>:<span class="pl-c1">|</span>
+<span class="pl-c1">|</span> <span class="pl-s1">单元格1</span> <span class="pl-c1">|</span> <span class="pl-s1">单元格2</span> <span class="pl-c1">|</span> <span class="pl-s1">单元格3</span> <span class="pl-c1">|</span>
+<span class="pl-c1">|</span> <span class="pl-s1">单元格4</span> <span class="pl-c1">|</span> <span class="pl-s1">单元格5</span> <span class="pl-c1">|</span> <span class="pl-s1">单元格6</span> <span class="pl-c1">|</span>
+<span class="pl-s1">效果如下</span>：
+
+<span class="pl-s1">头1</span>	<span class="pl-s1">头2</span>	<span class="pl-s1">头3</span>
+<span class="pl-s1">单元格1</span>	<span class="pl-s1">单元格2</span>	<span class="pl-s1">单元格3</span>
+<span class="pl-s1">单元格4</span>	<span class="pl-s1">单元格5</span>	<span class="pl-s1">单元格6</span>
+<span class="pl-c1">11.</span> <span class="pl-s1">注释</span></pre></div></code></div></div></pre></div>
 <div style="font-size:small;margin-top:8px;float:right;"></div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
